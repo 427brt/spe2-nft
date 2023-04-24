@@ -12,7 +12,7 @@ import { NFT } from "../types/NFT";
 const Nft = ({ nft }: { nft: NFT }) => {
   const { data: nftCollection } = useContract(
     nftCollectionAddress,
-    "nft-collection"
+    "0x8038af5614c53b9f5f4ed08cfa628d23de5cbcf8"
   );
   const address = useAddress();
   const [loading, setLoading] = useState(false);
