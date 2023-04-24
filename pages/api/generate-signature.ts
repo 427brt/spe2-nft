@@ -27,7 +27,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       }
     }
 
-    const { name, description, url, price } = nfts[id];
+    const { name, description, url, price, prefecture, area } = nfts[id];
 
     const metadata = {
       metadata: {
@@ -35,6 +35,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         description,
         image: url,
         attributes: [{ id }],
+        prefecture,
+        area,
       },
       price,
       to: address,

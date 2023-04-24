@@ -7,6 +7,8 @@ export const nfts: NFT[] = [
     description: "Tokyo.",
     url: "https://ipfs.thirdwebcdn.com/ipfs/QmVHaWNHJ2MDTK4dT8UKRVfzz4iUcBQrD6Kmo8oqfJyAjh/tokyo.png",
     price: 0.0,
+    prefecture: "tokyo",
+    area: "kanto",
   },
   {
     id: 1,
@@ -14,6 +16,8 @@ export const nfts: NFT[] = [
     description: "Hokkaido.",
     url: "https://ipfs.thirdwebcdn.com/ipfs/QmTCZw3yhxznFGbr7PNrTvqiS3E1EexZg5f6RZKRmcrU6q/hokkaido.png",
     price: 0.0,
+    prefecture: "hokkaido",
+    area: "hokkaido",
   },
   {
     id: 2,
@@ -21,6 +25,25 @@ export const nfts: NFT[] = [
     description: "Aomori.",
     url: "https://ipfs.thirdwebcdn.com/ipfs/QmVQKez4xqbzYy3zRrYXBreRXSfjKHNW7JAYkc4xqHXjvv/aomori.png",
     price: 0.0,
+    prefecture: "aomori",
+    area: "tohoku",
   },
-  
+  {
+    id: 4,
+    name: "Iwate",
+    description: "Iwate.",
+    url: "https://ipfs.thirdwebcdn.com/ipfs/QmbfetCq3ZrAktoTCJZfdSmHkRnFxWfSu7W6Zd78SCx6ns/iwate.png",
+    price: 0.0,
+    prefecture: "iwate",
+    area: "tohoku",
+  },
+  {
+    id: 5,
+    name: "Akita",
+    description: "Akita.",
+    url: "https://ipfs.thirdwebcdn.com/ipfs/QmZ6ydEsn9xAzEdfB1SgpgfR9ZqFkxho8ctuoBmv1frsuY/akita.png",
+    price: 0.0,
+    prefecture: "akita",
+    area: "tohoku",
+  },
 ];
